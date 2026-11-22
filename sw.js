@@ -1,8 +1,8 @@
 /* Service worker: caches the app so it works with NO internet after the first visit. */
-const CACHE = "cellcounter-v1";
+const CACHE = "cellcounter-v2";
 const FILES = [
   "./", "index.html", "style.css", "core.js", "app.js",
-  "opencv.js", "manifest.webmanifest",
+  "opencv.js", "manifest.webmanifest","report.js",
   "icons/icon-192.png", "icons/icon-512.png"
 ];
 
